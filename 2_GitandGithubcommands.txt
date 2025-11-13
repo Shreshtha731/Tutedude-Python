@@ -1,0 +1,16 @@
+Git >> Version control (to store different Version of the   applications)
+    let's say we create an app and have diff. versions of it
+
+    v1
+    v2
+    v3
+new v4(to keep track or fix the bugs)
+
+>>It is distributed on cloud
+>>It's for collaboration
+>>Tracking the other's work
+>>Recovery of your versions if you fuck up(which you will)
+>> git pull origin {main(branch name)} to pull the files 
+>> git status (for checking the status of the app)
+>>git add "name of the file"
+>>git add . (to add all the files)
