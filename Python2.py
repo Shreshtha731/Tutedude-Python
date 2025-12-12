@@ -1,4 +1,6 @@
-name1=input("Enter your first name:")
-name2=input("Enter your second name:")
-Full_name=name1+name2
-print("Hello",Full_name,"! Welcome to Python program.")
+lowercase=1
+uppercase=50
+sum=0
+for i in range(lowercase,uppercase):
+    sum=sum+i
+print(f"The sum of the numbers from {lowercase} to {uppercase} is:{sum}")    

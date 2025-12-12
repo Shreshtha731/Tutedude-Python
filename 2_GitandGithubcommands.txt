@@ -6,6 +6,15 @@ Git >> Version control (to store different Version of the   applications)
     v3
 new v4(to keep track or fix the bugs)
 
+for 1 st time users{
+git config --global user.name "github username"
+git config --global user.email "your github email id"
+}
+git init to create git repo
+
+for connection:
+git remote add "origin repo url"
+
 >>It is distributed on cloud
 >>It's for collaboration
 >>Tracking the other's work
@@ -14,3 +23,5 @@ new v4(to keep track or fix the bugs)
 >> git status (for checking the status of the app)
 >>git add "name of the file"
 >>git add . (to add all the files)
+>>git commit -m "Commit message"
+git push
