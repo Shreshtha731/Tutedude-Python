@@ -1,6 +1,5 @@
-lowercase=1
-uppercase=50
-sum=0
-for i in range(lowercase,uppercase+1):
-    sum=sum+i
-print(f"The sum of the numbers from {lowercase} to {uppercase} is:{sum}")    
+import math
+num=int(input("Enter a number:"))
+print(f"Square root of {num} is :{math.sqrt(num)}")
+print(f"Natural logarithm (log base e) of {num} is : {math.log(num)}")
+print(f"Sine of the {num} (in radians) is : {math.sin(num)}")
