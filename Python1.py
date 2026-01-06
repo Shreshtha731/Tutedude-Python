@@ -1,2 +1,7 @@
-num=int(input("Enter the number:"))
-print(f"{num} is an even number") if num%2==0 else print(f"{num} is an odd number")
+def factorial():
+    prod=1
+    num=int(input("Enter a number:"))
+    for i in range (num,0,-1):
+        prod=prod*i
+    print(prod)    
+factorial()    
