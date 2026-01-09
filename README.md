@@ -1,11 +1,13 @@
 # Tutedude-Python
-Code in Python1.py Calculate Factorial Using a Function
-Code in Python2.py 
-1.  Asks the user for a number as input.
-2.  Uses the math module to calculate the:
-o   Square root of the number
-o   Natural logarithm (log base e) of the number
-o   Sine of the number (in radians)
-3.   Displays the calculated results.
+Code in Python1.py Read a File and Handle Errors 
+1.   Opens and reads a text file named sample.txt.
+2.   Prints its content line by line.
+3.   Handles errors gracefully if the file does not exist.
 
-And the other files were just for testing the setup between github and wsl vscode.
+Code in Python2.py 
+1.   Takes user input and writes it to a file named output.txt.
+2.   Appends additional data to the same file.
+3.   Reads and displays the final content of the file.
+
+
+
