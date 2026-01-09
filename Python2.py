@@ -1,5 +1,18 @@
-import math
-num=int(input("Enter a number:"))
-print(f"Square root of {num} is :{math.sqrt(num)}")
-print(f"Natural logarithm (log base e) of {num} is : {math.log(num)}")
-print(f"Sine of the {num} (in radians) is : {math.sin(num)}")
+fh=open("output.txt","wt")
+content=input("Enter text to write to the file:")
+fh.write(content)
+print("Content added to the file named as output.txt")
+fh.close()
+fh=open("output.txt","at")
+content1=input("Enter additional text to append:")
+if content=="":
+    fh.close()
+else:
+    fh.write(f"\n{content1}")
+    print("Data successfully appended")
+    fh.close()
+fh=open("output.txt","rt")
+print("Final output of output.txt:")
+lines=fh.read()
+print(lines)
+fh.close()        
