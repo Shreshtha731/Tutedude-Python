@@ -1,18 +1,5 @@
-fh=open("output.txt","wt")
-content=input("Enter text to write to the file:")
-fh.write(content)
-print("Content added to the file named as output.txt")
-fh.close()
-fh=open("output.txt","at")
-content1=input("Enter additional text to append:")
-if content=="":
-    fh.close()
-else:
-    fh.write(f"\n{content1}")
-    print("Data successfully appended")
-    fh.close()
-fh=open("output.txt","rt")
-print("Final output of output.txt:")
-lines=fh.read()
-print(lines)
-fh.close()        
+lst=[1,2,3,4,5,6,7,8,9,10]
+print(f"Original list is: {lst}")
+extracted=lst[0:5]
+print(f"Extracted first five elements: {extracted}")
+print(f"Revesed extracted elements: {extracted[::-1]}")
